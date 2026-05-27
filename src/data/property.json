@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Apartamento Centro",
+        "description": "Apartamento mobiliado com 2 quartos",
+        "address": "Rua das Palmeiras, 123",
+        "city": "Florianópolis",
+        "state": "SC",
+        "zipCode": "88000-000",
+        "rentPrice": 1800,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "garageSpots": 1,
+        "isRented": false,
+        "createdAt": "2026-05-27T13:00:00.000Z"
+    }
+]
