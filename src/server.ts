@@ -1,11 +1,11 @@
-import creatApp from './app';
+import createApp from './app';
 
 async function start() {
-    const app = await creatApp();
+    const app = await createApp();
     const port = process.env.PORT
 
     app.listen(port, () => {
-        console.log(`Servidor rodando na porta ${port}`);
+        console.log(`Server running on port ${port}`);
     })
 }
 

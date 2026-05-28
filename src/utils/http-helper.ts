@@ -35,3 +35,9 @@ export const notFound = async(): Promise<HttpResponse> =>{
         body: {message: 'not found'}
     }
 }
+export const internalServerError = async(error: any): Promise<HttpResponse> =>{
+    return {
+        statusCode: 500,
+        body: {"Internal Server Error": error}
+    }
+}

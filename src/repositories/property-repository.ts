@@ -1,4 +1,4 @@
-import { Property as PropertyModel } from "../models/property-model";
+import { Property as PropertyModel } from "../interfaces/property-interface";
 import fs from 'fs/promises';
 
 export const findAllPropertis = async(): Promise<PropertyModel[]> =>{

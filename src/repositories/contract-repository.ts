@@ -1,4 +1,4 @@
-import { Contract as ContractModel } from "../models/contract-model";
+import { Contract as ContractModel } from "../interfaces/contract-interface";
 import fs from 'fs/promises';
 
 export const findAllContracts = async(): Promise<ContractModel[]> =>{
